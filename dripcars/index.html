@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <div id = "vid">
+    <video controls>
+      <source id="vsrc" />
+      Please update your browser.
+    </video>
+  </div>
+  
+  <script>
+    document.getElementById("vsrc").src = Math.floor((Math.random()*3)+1) + ".mp4";
+  </script>
+</body>
+
+</html>
